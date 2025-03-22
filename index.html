@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentora - Smart Rental Solutions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Added meta tags for SEO -->
+    <meta name="description" content="Rentora - Your one-stop solution for seamless rental experiences. Find, book, and manage rentals with just a few clicks.">
+    <meta name="keywords" content="rental, property, apartment, house, listing, real estate">
+</head>
+<body>
+    <nav>
+        <div class="logo">Rentora</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#rental">Rental</a></li>
+            <li><a href="#list">List</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <div class="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <header class="hero" id="home">
+        <div class="hero-text">
+            <h1>Rent Smarter, <span class="accent">Live Better</span></h1>
+            <p>Your one-stop solution for seamless rental experiences. Find, book, and manage rentals with just a few clicks.</p>
+            <div class="cta-buttons">
+                <a href="explore.html" class="primary-button">Get Started</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="house-3.png" alt="Modern apartment interior">
+            <div class="floating-element top-left">
+                <i class="fas fa-home"></i>
+                <span>Premium Locations</span>
+            </div>
+            <div class="floating-element right-middle">
+                <i class="fas fa-star"></i>
+                <span>Top Rated</span>
+            </div>
+            <div class="floating-element bottom-left">
+                <i class="fas fa-dollar-sign"></i>
+                <span>Best Prices</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="rental-section" id="rental">
+        <h2 class="section-title">Discover the Comfort Living</h2>
+        <p class="section-subtitle">Find your perfect rental from our curated collection of properties</p>
+        
+        <div class="rental-container">
+            <div class="rental-content">
+                <div class="slideshow-wrapper">
+                    <div class="slideshow-container">
+                        <div class="slides-wrapper">
+                            <div class="slides">
+                                <div class="slide">
+                                    <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Modern living room">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Stylish kitchen">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Luxury condo">
+                                </div>
+                                <div class="slide">
+                                    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Cozy bedroom">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    
+                    <div class="dots-container">
+                        <span class="dot active" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                </div>
+                
+                <div class="rental-info">
+                    <h3>Elevate Your Living Experience</h3>
+                    <p>Discover exceptional homes in prime locations. Our curated collection offers comfort, style, and convenience for every lifestyle. From urban apartments to suburban houses, find a place to call home.</p>
+                    <p>Each property is thoroughly vetted and maintained to meet our high standards of quality and comfort.</p>
+                    <a href="explore.html" class="primary-button">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Property Listing Section -->
+    <section class="listing-section" id="list">
+        <div class="overlay"></div>
+        <div class="listing-content">
+            <h2 class="section-title light">List Your Property With Us</h2>
+            <p class="section-subtitle light">Join thousands of property owners who trust Rentora to connect them with quality tenants</p>
+            
+            <div class="benefits-container">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Reach Quality Tenants</h3>
+                    <p>Connect with thousands of verified tenants looking for properties just like yours.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Transactions</h3>
+                    <p>Our platform ensures secure payments and protects both owners and tenants.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Maximize Your Income</h3>
+                    <p>Our market insights help you set the right price to maximize your rental income.</p>
+                </div>
+            </div>
+            
+            <div class="cta-container">
+                <button class="primary-button" onclick="openListingModal()">List Your Property</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Listing Modal -->
+    <div id="listingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeListingModal()">&times;</span>
+            <h2>List Your Property</h2>
+            
+            <form id="listingForm" method="post" action="submit-listing.php">
+                <div class="form-group">
+                    <label for="ownerName">Your Name *</label>
+                    <input type="text" id="ownerName" name="ownerName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ownerEmail">Email *</label>
+                    <input type="email" id="ownerEmail" name="ownerEmail" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ownerPhone">Phone *</label>
+                    <input type="tel" id="ownerPhone" name="ownerPhone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="propertyType">Property Type *</label>
+                    <select id="propertyType" name="propertyType" required>
+                        <option value="">Select Property Type</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="house">House</option>
+                        <option value="condo">Condo</option>
+                        <option value="villa">Villa</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="propertyAddress">Property Address *</label>
+                    <textarea id="propertyAddress" name="propertyAddress" required></textarea>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group half">
+                        <label for="bedrooms">Bedrooms *</label>
+                        <input type="number" id="bedrooms" name="bedrooms" min="0" required>
+                    </div>
+                    
+                    <div class="form-group half">
+                        <label for="bathrooms">Bathrooms *</label>
+                        <input type="number" id="bathrooms" name="bathrooms" min="0" step="0.5" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group half">
+                        <label for="area">Area (sq ft) *</label>
+                        <input type="number" id="area" name="area" min="0" required>
+                    </div>
+                    
+                    <div class="form-group half">
+                        <label for="rentalPrice">Monthly Rent ($) *</label>
+                        <input type="number" id="rentalPrice" name="rentalPrice" min="0" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">Property Description *</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="propertyImages">Upload Images</label>
+                    <input type="file" id="propertyImages" name="propertyImages[]" multiple accept="image/*">
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="primary-button">Submit Listing</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- About Section Placeholder -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Rentora</h2>
+        <p class="section-subtitle">Making property rentals easy, secure, and enjoyable since 2022</p>
+        <!-- About content would go here -->
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Rentora</h2>
+                <p>Your trusted rental platform</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#rental">Rentals</a></li>
+                        <li><a href="#list">List Property</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Rental Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@rentora.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Main St, City, Country</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Rentora. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        let isAnimating = false;
+        
+        // Set a timeout to start the slideshow after 3 seconds
+        setTimeout(() => {
+            showSlides(slideIndex);
+            // Auto advance slides every 5 seconds
+            setInterval(() => {
+                if (!isAnimating) {
+                    plusSlides(1);
+                }
+            }, 5000);
+        }, 3000);
+        
+        function plusSlides(n) {
+            if (isAnimating) return;
+            showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+            if (isAnimating) return;
+            showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+            
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            
+            isAnimating = true;
+            
+            // Update active dot
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            dots[slideIndex-1].className += " active";
+            
+            // Calculate slide translation
+            const slidesContainer = document.querySelector('.slides');
+            const slideWidth = slides[0].offsetWidth;
+            slidesContainer.style.transition = 'transform 0.6s ease-in-out';
+            slidesContainer.style.transform = `translateX(${-(slideIndex - 1) * slideWidth}px)`;
+            
+            // Reset animation flag after transition completes
+            setTimeout(() => {
+                isAnimating = false;
+            }, 650);
+        }
+        
+        // Modal functionality
+        function openListingModal() {
+            document.getElementById('listingModal').style.display = 'flex';
+            document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+        }
+        
+        function closeListingModal() {
+            document.getElementById('listingModal').style.display = 'none';
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+        
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('listingModal');
+            if (event.target == modal) {
+                closeListingModal();
+            }
+        }
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
