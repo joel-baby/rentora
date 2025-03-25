@@ -1,16 +1,7 @@
-# Rentora - Student Rental Platform
+# Rentora Web Page Project
 
-Welcome to Rentora, the ultimate platform for students to find rented homes, hostels, and PGs near their college! Rentora makes it easy for property owners to list accommodations and for students to find the perfect stay hassle-free.
-
-🚀 Features
-
-🔍 Search Nearby Rentals – Find hostels, PGs, and rental homes near your college.
-
-🏡 List Properties – Property owners can easily post their accommodations.
-
-✅ Verified Listings – Ensuring security and trust for both owners and students.
-
-📞 Direct Communication – Connect directly with property owners.
+## Overview
+This project is a simple web page for Rentora, featuring a navigation bar and a hero section. The navigation bar includes the company name on the left and a centered navigation section. The hero section consists of text and a button on the left side, with a hero image on the right side.
 
 ## Project Structure
 ```
